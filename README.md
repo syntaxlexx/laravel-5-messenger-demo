@@ -1,5 +1,7 @@
 # Laravel 5 ChatMessenger Demo (+ Pusher)
 
+![Screenshot](acelords-messenger.jpg?raw=true "Screenshot")
+
 This is a demo application for the [Laravel 5 messenger](https://github.com/lexxyungcarter/laravel-5-messenger) to showcase the capabilities for the package.
 
 It is based on [**Laravel 5.7**](https://laravel.com) which is really powerful.
