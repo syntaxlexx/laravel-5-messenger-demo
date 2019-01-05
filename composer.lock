@@ -1164,16 +1164,16 @@
         },
         {
             "name": "lexxyungcarter/chatmessenger",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lexxyungcarter/laravel-5-messenger.git",
-                "reference": "e18dce2965b715f0b96c31138acebcc5d680ea55"
+                "reference": "356deb224e78742b36d1e1858447c41fbdb3c03f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lexxyungcarter/laravel-5-messenger/zipball/e18dce2965b715f0b96c31138acebcc5d680ea55",
-                "reference": "e18dce2965b715f0b96c31138acebcc5d680ea55",
+                "url": "https://api.github.com/repos/lexxyungcarter/laravel-5-messenger/zipball/356deb224e78742b36d1e1858447c41fbdb3c03f",
+                "reference": "356deb224e78742b36d1e1858447c41fbdb3c03f",
                 "shasum": ""
             },
             "require": {
@@ -1225,7 +1225,7 @@
                 "pusher",
                 "user messaging"
             ],
-            "time": "2018-04-24T09:16:45+00:00"
+            "time": "2019-01-05T08:43:38+00:00"
         },
         {
             "name": "monolog/monolog",
