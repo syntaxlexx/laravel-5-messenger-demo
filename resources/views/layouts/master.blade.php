@@ -65,7 +65,7 @@
 
     @if(Auth::check())
     <!-- check if pusher is allowed -->
-        @if(config('chatmessenger.use_pusher')) {
+        @if(config('chatmessenger.use_pusher'))
             <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.1/pusher.min.js"></script>
 
             <script type="text/javascript">
