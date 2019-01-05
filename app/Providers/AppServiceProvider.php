@@ -27,6 +27,7 @@ class AppServiceProvider extends ServiceProvider
             [
                 'users.*',
                 'messenger.partials.thread-participants',
+                'auth.login',
             ],
 
             function ($view) {

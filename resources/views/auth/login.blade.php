@@ -68,6 +68,15 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-sm-4">
+            <h4 class="title">Available Logins</h4>
+            <ul>
+                @foreach($users as $user)
+                    <li>Email: <strong>{{ $user->email }}</strong> <br/> Password: <strong>{{ $user->name }}</strong></li>
+                @endforeach
+            </ul>
+        </div>
     </div>
 </div>
 @endsection
