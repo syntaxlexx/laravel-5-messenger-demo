@@ -48,7 +48,29 @@
                 <li><a href="/users">Users</a></li>
                 <li><a href="/messages">Messages @include('messenger.unread-count')</a></li>
                 <li><a href="/messages/create">New Message</a></li>
-                <li><a href="#"><span>{{ Auth::user()->name }}</span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        {{ Auth::user()->name }}
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                Logout
+                            </a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="https://github.com/lexxyungcarter/laravel-5-messenger">View package in Github</a></li>
+                        <li><a href="https://github.com/lexxyungcarter/laravel-5-messenger-demo">View Demo-Code in Github</a></li>
+                        <li><a href="https://acelords.space">Say Hi</a></li>
+                        <li><a href="https://acelords.space" title="Request for a custom-designed Chatroom based off this">Get your customized chatroom</a></li>
+                    </ul>
+                </li>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+
             </ul>
         </div><!--/.nav-collapse -->
     </div>

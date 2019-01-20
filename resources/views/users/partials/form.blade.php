@@ -19,7 +19,7 @@
     @csrf
 
     <div class="form-group">
-        <label for="name" class="control-label">Name</label>
+        <label for="name" class="control-label">Name/Username</label>
         <input type="text" name="name" class="form-control" required>
     </div>
     <div class="form-group">
@@ -27,6 +27,7 @@
         <input type="email" name="email" class="form-control" required>
     </div>
     <div class="form-group">
+        <p><small><em>For simplicity, it would be easier to set the password same as the username</em></small></p>
         <label for="password" class="control-label">Password</label>
         <input type="password" name="password" class="form-control" required>
     </div>

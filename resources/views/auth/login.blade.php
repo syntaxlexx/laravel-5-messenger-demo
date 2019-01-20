@@ -71,6 +71,9 @@
 
         <div class="col-sm-4">
             <h4 class="title">Available Logins</h4>
+            <p><small><em>Disclaimer: The password is assumed to be same as the username set by the 'creator', and
+                as such may necessarily not be the case.
+            </em></small></p>
             <ul>
                 @foreach($users as $user)
                     <li>Email: <strong>{{ $user->email }}</strong> <br/> Password: <strong>{{ $user->name }}</strong></li>
