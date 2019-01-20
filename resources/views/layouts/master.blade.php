@@ -48,6 +48,7 @@
                 <li><a href="/users">Users</a></li>
                 <li><a href="/messages">Messages @include('messenger.unread-count')</a></li>
                 <li><a href="/messages/create">New Message</a></li>
+                <li><a href="#"><span>{{ Auth::user()->name }}</span></a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
