@@ -48,6 +48,8 @@
                 <li><a href="/users">Users</a></li>
                 <li><a href="/messages">Messages @include('messenger.unread-count')</a></li>
                 <li><a href="/messages/create">New Message</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         {{ Auth::user()->name }}
