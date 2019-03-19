@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
@@ -69,17 +70,41 @@
             </div>
         </div>
 
-        <div class="col-sm-4">
-            <h4 class="title">Available Logins</h4>
-            <p><small><em>Disclaimer: The password is assumed to be same as the username set by the 'creator', and
-                as such may necessarily not be the case.
-            </em></small></p>
-            <ul>
-                @foreach($users as $user)
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <h4 class="title mt-4">Available Logins</h4>
+            <p>
+                <small>
+                    <em>Disclaimer: The password is assumed to be same as the username set by the 'creator', and
+                    as such may necessarily not be the case.
+                    </em>
+            </small>
+            </p>
+
+            @foreach($users as $user)
+                @if($loop->iteration > 1)
+                    @break
+                @endif
+
+                <ul>
                     <li>Email: <strong>{{ $user->email }}</strong> <br/> Password: <strong>{{ $user->name }}</strong></li>
-                @endforeach
-            </ul>
+                </ul>
+            
+            @endforeach
+
         </div>
+
+        @foreach($users as $user)
+            @if($loop->iteration < 2)
+                @continue
+            @endif
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul>
+                    <li>Email: <strong>{{ $user->email }}</strong> <br/> Password: <strong>{{ $user->name }}</strong></li>
+                </ul>
+            </div>  
+        @endforeach
     </div>
 </div>
+
 @endsection
