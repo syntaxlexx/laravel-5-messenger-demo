@@ -13,11 +13,19 @@
         <style>
             html, body {
                 background-color: #fff;
+                background-image: url('/img/acelords-background.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+            }
+
+            body * {
+                color: #fff !important;
             }
 
             .full-height {
@@ -44,7 +52,7 @@
                 text-align: center;
             }
 
-            .title {
+            .title span {
                 font-size: 84px;
             }
 
@@ -93,8 +101,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Messenger
+                    <span>Laravel {{ App::VERSION() }} Messenger</span>
+                    <br/>
+                    <em>
+                        By 
+                        <a href="https://github.com/lexxyungcarter">Lexx YungCarter</a>,  
+                        <a href="https://www.acelords.space">[AceLords]</a>
+                    </em>
                 </div>
+                
+
 
                 <div class="links">
                     <a href="https://github.com/lexxyungcarter/laravel-5-messenger/blob/master/examples/">Examples</a>

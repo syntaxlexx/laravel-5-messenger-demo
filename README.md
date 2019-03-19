@@ -4,7 +4,10 @@
 
 This is a demo application for the [Laravel 5 messenger](https://github.com/lexxyungcarter/laravel-5-messenger) to showcase the capabilities for the package.
 
-It is based on [**Laravel 5.7**](https://laravel.com) which is really powerful.
+It is based on [**Laravel 5.8**](https://laravel.com) which is by far the best PHP framework at the time of commit.
+
+## NB
+For Laravel versions not supporting php v7.1.3 and up, please refer to `version 1` [v1 branch]. Basically, this applies to Laravel 5.5 and below.
 
 ## Link
 
