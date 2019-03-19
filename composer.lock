@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93d1fbb953fe6e2baa99298a68f0a34b",
+    "content-hash": "a0428c69556d73e5991ebf74c176a181",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -810,16 +810,16 @@
         },
         {
             "name": "lexxyungcarter/chatmessenger",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lexxyungcarter/laravel-5-messenger.git",
-                "reference": "29d59edeae0327af51107cffa510a8e6409e0f20"
+                "reference": "d98d00b1e9e70b82748beb06f0470b6609ebc9ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lexxyungcarter/laravel-5-messenger/zipball/29d59edeae0327af51107cffa510a8e6409e0f20",
-                "reference": "29d59edeae0327af51107cffa510a8e6409e0f20",
+                "url": "https://api.github.com/repos/lexxyungcarter/laravel-5-messenger/zipball/d98d00b1e9e70b82748beb06f0470b6609ebc9ca",
+                "reference": "d98d00b1e9e70b82748beb06f0470b6609ebc9ca",
                 "shasum": ""
             },
             "require": {
@@ -854,7 +854,7 @@
             "authors": [
                 {
                     "name": "Lexx YungCarter",
-                    "email": "spencermainaa@gmail.com",
+                    "email": "lexxyungcarter@gmail.com",
                     "homepage": "https://github.com/lexxyungcarter",
                     "role": "Developer"
                 }
@@ -868,7 +868,7 @@
                 "pusher",
                 "user messaging"
             ],
-            "time": "2019-03-18T21:21:48+00:00"
+            "time": "2019-03-19T07:15:38+00:00"
         },
         {
             "name": "monolog/monolog",
