@@ -25,6 +25,6 @@
         <small><strong>Creator:</strong> {{ $thread->creator()->name }}</small>
     </p>
     <p>
-        <small><strong>Participants:</strong> {{ $thread->participantsString(Auth::id(), ['first_name']) }}</small>
+        <small><strong>Participants:</strong> {{ $thread->participantsString(Auth::id()) }}</small>
     </p>
 </div>
