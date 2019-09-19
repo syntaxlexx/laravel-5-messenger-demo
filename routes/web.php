@@ -28,6 +28,8 @@ Route::group(['prefix' => 'messages', 'as' => 'messages.'], function () {
 Route::group(['prefix' => 'thread', 'as' => 'thread.'], function() {
     Route::get('/{id}/add-participant/{userId}', ['as' => 'add-participant', 'uses' => 'ThreadController@addParticipant']);
     Route::get('/{id}/remove-participant/{userId}', ['as' => 'remove-participant', 'uses' => 'ThreadController@removeParticipant']);
+    Route::get('/{id}/star', ['as' => 'star', 'uses' => 'ThreadController@star']);
+    Route::get('/{id}/unstar', ['as' => 'unstar', 'uses' => 'ThreadController@unstar']);
 
 });
 

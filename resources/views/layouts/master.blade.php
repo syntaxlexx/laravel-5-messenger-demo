@@ -7,6 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Lexx Laravel Messenger with Pusher | {{ env('APP_NAME') }}</title>
 
+    {{-- fontawesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -121,12 +124,10 @@
                         });
                     });
 
-                    var pusher = new Pusher('{{ config('pusher.connections.main.auth_key') }}', {
-                        cluster: '{{ config('pusher.connections.main.options.cluster') }}',
-                        encrypted: true
+                    var pusher = new Pusher('{{ config('broadcasting.connections.pusher.key') }}', {
+                        cluster: '{{ config('broadcasting.connections.pusher.options.cluster') }}',
+                        useTls: true
                     });
-
-
 
                     var channel = pusher.subscribe('for_user_{{ Auth::id() }}');
 

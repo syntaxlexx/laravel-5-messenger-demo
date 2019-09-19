@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Lexx\ChatMessenger\Models\Thread;
 use Session;
+use Auth;
 
 class ThreadController extends Controller
 {
@@ -49,6 +50,47 @@ class ThreadController extends Controller
             Session::flash('success', 'Participant removed successfully');
         } else {
             Session::flash('error', 'There was an error removing the participant');
+        }
+
+        return redirect()->back();
+    }
+
+    /**
+     * Star a thread
+     * 
+     * @param  int  $threadId
+     * @return \Illuminate\Http\Response
+     */
+    public function star($id)
+    {
+        $thread = $this->model->findOrFail($id);
+
+        if($thread->star())
+        {
+            Session::flash('success', 'Thread starred');
+        } else {
+            Session::flash('error', 'There was an error starring the thread');
+        }
+
+        return redirect()->back();
+    }
+    
+    
+    /**
+     * Unstar a thread
+     * 
+     * @param  int  $threadId
+     * @return \Illuminate\Http\Response
+     */
+    public function unstar($id)
+    {
+        $thread = $this->model->findOrFail($id);
+
+        if($thread->unstar())
+        {
+            Session::flash('success', 'Thread unstarred');
+        } else {
+            Session::flash('error', 'There was an error starring the thread');
         }
 
         return redirect()->back();

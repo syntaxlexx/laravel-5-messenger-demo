@@ -11,3 +11,4 @@ npm-debug.log
 yarn-error.log
 .DS_Store
 public/.DS_Store
+Envoy.blade.php
