@@ -30,13 +30,4 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-     /**
-     * The name to use when fetching the participant's name
-     * 
-     * NB: Override this to suit your use-case.
-     */
-    public function getNameAttribute()
-    {
-        return $this->first_name;
-    }
 }
