@@ -1,5 +1,5 @@
 {
-    "name": "lexxyungcarter/laravel-5-messenger-demo",
+    "name": "laravel-5-messenger-demo",
     "description": "Get awesome vue-router page transitions for your application",
     "author": "Lexx YungCarter",
     "license": "MIT",
@@ -8,7 +8,15 @@
         "type": "git",
         "url": "git+https://github.com/lexxyungcarter/laravel-5-messenger-demo.git"
     },
-    "keywords": ["laravel", "chat", "messenger", "messaging", "user messaging", "chat", "pusher"],
+    "keywords": [
+        "laravel",
+        "chat",
+        "messenger",
+        "messaging",
+        "user messaging",
+        "chat",
+        "pusher"
+    ],
     "deprecated": false,
     "private": false,
     "scripts": {
