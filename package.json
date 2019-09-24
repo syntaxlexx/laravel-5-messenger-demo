@@ -1,5 +1,16 @@
 {
-    "private": true,
+    "name": "lexxyungcarter/laravel-5-messenger-demo",
+    "description": "Get awesome vue-router page transitions for your application",
+    "author": "Lexx YungCarter",
+    "license": "MIT",
+    "homepage": "https://github.com/lexxyungcarter/laravel-5-messenger-demo#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lexxyungcarter/laravel-5-messenger-demo.git"
+    },
+    "keywords": ["laravel", "chat", "messenger", "messaging", "user messaging", "chat", "pusher"],
+    "deprecated": false,
+    "private": false,
     "scripts": {
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -10,16 +21,19 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
-        "axios": "^0.18",
-        "bootstrap": "^4.0.0",
+        "axios": "^0.19.0",
+        "bootstrap": "^4.3.1",
         "cross-env": "^5.1",
-        "jquery": "^3.2",
+        "jquery": "^3.4.0",
+        "js-yaml": "^3.13.1",
         "laravel-mix": "^4.0.7",
-        "lodash": "^4.17.5",
+        "lodash": "^4.17.14",
+        "mixin-deep": ">=1.3.2",
         "popper.js": "^1.12",
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
-        "vue": "^2.5.17"
+        "set-value": ">=2.0.1",
+        "vue": "^2.6.8"
     }
 }
