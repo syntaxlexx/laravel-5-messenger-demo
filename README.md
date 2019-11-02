@@ -18,7 +18,7 @@ For Laravel versions not supporting php v7.1.3 and up, please refer to `version 
 If you've found this useful and would like to buy the maintainers a coffee (or a Tesla, we're not picky), feel free to do so.
 
 ### Crowdfunding
-It's also possible to support the project on [Patreon](https://www.patreon.com/lexxyungcarter) or by buying products and merchandise at [Marketplace](https://marketplace.acelords.space).
+It's also possible to support the project on [Patreon](https://www.patreon.com/lexxyungcarter) or by buying products and merchandise at [Marketplace](https://store.acelords.space).
 
 This funding is used for maintaining the project and adding new features into Code Style plus other open-source repositories.
 
