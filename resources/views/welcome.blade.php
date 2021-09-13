@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>{{ env('APP_NAME') }}</title>
-
+    
+        @include('layouts.partials.head')
+        
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
@@ -110,13 +108,31 @@
                     </em>
                 </div>
                 
-
-
                 <div class="links">
                     <a href="https://github.com/lexxyungcarter/laravel-5-messenger/blob/master/examples/">Examples</a>
                     <a href="https://github.com/lexxyungcarter/laravel-5-messenger/">Github</a>
                     <a href="https://acelords.space">Developers</a>
                 </div>
+
+                <div class="container-fluid mt-2">
+                    <div class="row">
+                        @foreach(acelords_socials() as $item)
+                            <div class="col-xs-12 col-md-6">
+                                <p>{{ $item['label'] }} : <strong><a href="{{ $item['link'] }}" target="_blank">{{ $item['link'] }}</a></strong></p>
+                            </div>
+                        @endforeach
+                    </div>
+                    <hr/>
+                    
+                    <div class="row text-left">
+                        @foreach(acelords_links() as $item)
+                            <div class="col-xs-12 col-md-6">
+                                <p>{{ $item['label'] }} : <strong><a href="{{ $item['link'] }}" target="_blank">{{ $item['link'] }}</a></strong></p>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+                
             </div>
         </div>
     </body>

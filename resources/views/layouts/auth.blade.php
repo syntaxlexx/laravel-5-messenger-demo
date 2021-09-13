@@ -4,8 +4,8 @@
     @include('layouts.partials.head')
 </head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+    <div id="app" style="background-image: url('/img/acelords-background.jpg');  height: 100vh">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel" style="background-color: rgba(255,255,255,0.6);">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -60,8 +60,19 @@
             </div>
         </nav>
 
-        <main class="py-4">
-            @yield('content')
+        <main class="p-5">
+            <div class="rounded" style="height: 80vh; width: 100%; overflow: hidden; overflow-y: auto; background-color: rgba(255,255,255,0.6);">
+                <div class="container-fluid">
+                    <div class="row" style="height: 100%;">
+                        <div class="col-md-5 col-sm-12 col-xs-12 bg-white" style="height: 80vh; width: 100%;">
+                            @yield('content')
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                            @yield('right')
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 </body>
