@@ -18,7 +18,7 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                min-height: 100vh;
                 margin: 0;
             }
 
@@ -54,6 +54,12 @@
                 font-size: 84px;
             }
 
+            nav.links {
+                background: rgba(0,0,0,0.5);
+                padding: 10px;
+                border-radius: 10px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -67,6 +73,12 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .acelords-links {
+                background: rgba(0,0,0,0.5);
+                padding: 20px;
+                border-radius: 10px;
+                margin-right: 20px;
+            }
         </style>
     </head>
     <body>
@@ -76,7 +88,7 @@
 
         <div class="flex-center position-ref full-height" style="margin-left: 20px;">
             @if (Route::has('login'))
-                <div class="top-right links" style="margin-right: 6em;">
+                <nav class="top-right links" style="margin-right: 6em;">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
 
@@ -94,7 +106,7 @@
                             <a href="{{ route('register') }}">Register</a>
                         @endif
                     @endauth
-                </div>
+                </nav>
             @endif
 
             <div class="content">
@@ -124,10 +136,10 @@
                     </div>
                     <hr/>
                     
-                    <div class="row text-left">
+                    <div class="row text-left acelords-links">
                         @foreach(acelords_links() as $item)
                             <div class="col-xs-12 col-md-6">
-                                <p>{{ $item['label'] }} : <strong><a href="{{ $item['link'] }}" target="_blank">{{ $item['link'] }}</a></strong></p>
+                                <p>&middot; {{ $item['label'] }} : <strong><a href="{{ $item['link'] }}" target="_blank">{{ $item['link'] }}</a></strong></p>
                             </div>
                         @endforeach
                     </div>
