@@ -89,7 +89,7 @@
         </small>
         </p>
 
-        <div class="container" style="height: 75vh; overflow-y: auto;">
+        <div class="container" style="height: 65vh; overflow-y: auto;">
             <div class="row">
                 @foreach($users as $user)
                     <div class="col-xs-12 col-md-6">
