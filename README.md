@@ -18,7 +18,7 @@ Or by buying products and merchandise at [Marketplace](https://store.acelords.sp
 
 This funding is used for maintaining the project and adding new features into Code Style plus other open-source repositories.
 
-[Screenshot 1](https://github.com/lexxyungcarter/laravel-5-messenger-demo/public/img/screenshot1.jpg)
+![Screenshot 1](public/img/screenshot1.jpg?raw=true "Screenshot")
 
 ## NB
 For Laravel versions not supporting php v7.1.3 and up, please refer to `version 1` [v1 branch]. Basically, this applies to Laravel 5.5 and below.
