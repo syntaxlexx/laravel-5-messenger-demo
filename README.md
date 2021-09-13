@@ -1,10 +1,10 @@
-# Laravel 5 & 6 ChatMessenger Demo (+ Pusher)
+# Laravel 5,6,7,8 ChatMessenger Demo (+ Pusher)
 
 ![Screenshot](acelords-messenger.jpg?raw=true "Screenshot")
 
 This is a demo application for the [Laravel 5 messenger](https://github.com/lexxyungcarter/laravel-5-messenger) to showcase the capabilities for the package.
 
-It is based on [**Laravel 6.x*](https://laravel.com) which is by far the best PHP framework at the time of commit.
+It is based on [**Laravel 8.x*](https://laravel.com) which is by far the best PHP framework at the time of commit.
 
 
 ## Donating to the project
