@@ -14,7 +14,9 @@
 
     <div class="col-md-6 col-sm-6 col-xs-12">
 
-        @include('messenger.partials.thread-participants', ['participants' => $thread->participants])
+        <div style="overflow-y: auto; height: 50vh">
+            @include('messenger.partials.thread-participants', ['participants' => $thread->participants])
+        </div>
 
         <br/>
         @include('layouts.partials.donation-features')
