@@ -7,6 +7,10 @@
 
             @include('users.partials.form')
 
+            <br/>
+            @include('layouts.partials.donation-features')
+            <br/>
+
         </div>
 
         <div class="col-sm-6 col-md-8 col-xs-12">

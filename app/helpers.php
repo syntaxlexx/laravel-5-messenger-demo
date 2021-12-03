@@ -80,3 +80,30 @@ if (! function_exists('acelords_socials'))
         return $links;
     }
 }
+
+
+if (! function_exists('acelords_support_links'))
+{
+    /**
+     * Get AceLords support Links
+     */
+    function acelords_support_links()
+    {
+        $links = collect([
+            [
+                'label' => 'Patreon',
+                'link' => 'https://patreon.com/lexxyungcarter'
+            ],
+            [
+                'label' => 'Ko-Fi',
+                'link' => 'https://ko-fi.com/acelords'
+            ],
+            [
+                'label' => 'MarketPlace',
+                'link' => 'https://store.acelords.space'
+            ],
+        ]);
+
+        return $links;
+    }
+}

@@ -30,6 +30,10 @@
         body {
             padding-top: 70px;
         }
+        .gradient-bg {
+            background-image: linear-gradient(to bottom right, #f39c12 , #f1c40f);
+            padding: 20px;
+        }
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

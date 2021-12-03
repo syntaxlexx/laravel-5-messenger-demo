@@ -16,5 +16,9 @@
 
         @include('messenger.partials.thread-participants', ['participants' => $thread->participants])
 
+        <br/>
+        @include('layouts.partials.donation-features')
+        <br/>
+
     </div>
 @stop

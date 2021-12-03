@@ -32,5 +32,11 @@
                 <button type="submit" class="btn btn-primary form-control">Submit</button>
             </div>
         </div>
+
+        <div class="col-md-6">
+            <br/>
+            @include('layouts.partials.donation-features')
+            <br/>
+        </div>
     </form>
 @stop

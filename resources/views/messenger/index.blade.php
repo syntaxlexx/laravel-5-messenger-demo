@@ -3,5 +3,13 @@
 @section('content')
     @include('messenger.partials.flash')
 
-    @each('messenger.partials.thread', $threads, 'thread', 'messenger.partials.no-threads')
+    <div>
+        <div style="float:right;">
+            <br/>
+            @include('layouts.partials.donation-features')
+            <br/>
+        </div>
+        
+        @each('messenger.partials.thread', $threads, 'thread', 'messenger.partials.no-threads')
+    </div>
 @stop

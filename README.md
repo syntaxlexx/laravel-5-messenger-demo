@@ -28,9 +28,19 @@ For Laravel versions not supporting php v7.1.3 and up, please refer to `version 
 [Here is the link](https://messenger.acelords.space).
 > To get a clear picture of how it works, open two to four browsers (private/incognito mode is perfect for this case) and login with different accounts.
 
-## What's Next
+## Our Wishlist
+We would love to create a demo for the following technologies:
+- Nuxt.js
+- Next.js
+- Livewire
+- Alphine.js
 
-We are working on a [Vue.js](https://vuejs.org) example since it is a versatile, powerful, and the most popular front-end JS framework.
+On top of that, here are some other features we would love to implement:
+- Shareable chat link (Invite Code/Link)
+- Shareable QR Code (Invite QR code)
+
+Support the development via any of the links above :)
 
 # Credits
 - [Lexx YungCarter](https://github.com/lexxyungcarter/)  - [Email](mailto:lexxyungcarter@gmail.com)
+- [ACELORDS](https://github.com/acelords/)  - [Email](mailto:info@acelords.space)
