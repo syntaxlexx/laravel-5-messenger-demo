@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "lexxyungcarter/laravel-messenger-demo",
     "type": "project",
-    "description": "Simple one-to-one/group chat messaging tool for Laravel 5 & 6 with Pusher Integration.",
+    "description": "Simple one-to-one/group chat messaging tool for Laravel 5, 6, 7 & 8 with Pusher Integration.",
     "keywords": ["laravel", "chat", "messenger", "messaging", "user messaging", "chat", "pusher"],
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2|^8.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^8.0",
         "laravel/helpers": "^1.1",

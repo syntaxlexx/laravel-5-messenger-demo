@@ -118,6 +118,8 @@
                         <a href="https://github.com/lexxyungcarter">Lexx YungCarter</a>,  
                         <a href="https://www.acelords.space">[AceLords]</a>
                     </em>
+                    <br/>
+                    <em>Running on PHP v{{ phpversion() }}</em>
                 </div>
                 
                 <div class="links">
