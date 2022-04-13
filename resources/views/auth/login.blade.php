@@ -69,6 +69,10 @@
             {{ __("Sign Up") }}
         </a>
     </p>
+    
+    <p class="mt-5 text-center" style="font-size: 20px;">
+        <a href="https://messenger-inertia.acelords.space">{{ __('Messenger Demo with Laravel Jetstream + Inertia') }}</a>
+    </p>
 
     <p class="d-sm-none text-center" class="animate__animated animate__heartBeat animate__infinite">
         <a href="#down">

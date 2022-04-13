@@ -20,4 +20,13 @@
         </ul>
         
     </p>
+
+    <br/>
+    <br/>
+    <p>
+        View the latest demo package here
+        <br/>
+        <a href="https://messenger-inertia.acelords.space">{{ __('Messenger Demo with Laravel Jetstream + Inertia') }}</a>
+    </p>
+
 </div>

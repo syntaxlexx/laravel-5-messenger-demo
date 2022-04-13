@@ -16,7 +16,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Lexx Laravel Messenger with Pusher | {{ env('APP_NAME') }}</title>
+    <title>Laravel Messenger with Pusher | {{ env('APP_NAME') }}</title>
 
     {{-- fontawesome --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -107,7 +107,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
     @if(Auth::check())
-    <!-- check if pusher is allowed -->
+        <!-- check if pusher is allowed -->
         @if(config('chatmessenger.use_pusher'))
             <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.1/pusher.min.js"></script>
 

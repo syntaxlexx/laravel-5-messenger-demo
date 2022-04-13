@@ -89,6 +89,8 @@
         <div class="flex-center position-ref full-height" style="margin-left: 20px;">
             @if (Route::has('login'))
                 <nav class="top-right links" style="margin-right: 6em;">
+                    <a href="https://messenger-inertia.acelords.space">{{ __('LAravel Jetstream + Inertia Demo') }}</a>
+                   
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
 
@@ -106,6 +108,7 @@
                             <a href="{{ route('register') }}">Register</a>
                         @endif
                     @endauth
+
                 </nav>
             @endif
 
