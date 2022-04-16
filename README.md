@@ -41,6 +41,16 @@ On top of that, here are some other features we would love to implement:
 
 Support the development via any of the links above :)
 
+
+## Latest Demo
+We have a [New Demo Version](https://messenger-inertia.acelords.space) that features the common Laravel Jetstream + Inertia stack.
+- [Check the LIVE DEMO here](https://messenger-inertia.acelords.space)
+- [Check the Source Code DEMO here](https://github.com/acelords/laravel-messenger-demo-inertia)
+
+
+![Screenshot 1](https://github.com/acelords/laravel-messenger-demo-inertia/blob/main/screenshots/messenger-admin-4.png?raw=true "Screenshot")
+
+
 # Credits
 - [Lexx YungCarter](https://github.com/lexxyungcarter/)  - [Email](mailto:lexxyungcarter@gmail.com)
 - [ACELORDS](https://github.com/acelords/)  - [Email](mailto:info@acelords.space)
