@@ -14,7 +14,7 @@ If you've found this useful and would like to buy the maintainers a coffee (or a
 
 <a href="https://ko-fi.com/acelords" target="_blank" title="Buy me a Coffee"><img width="150" style="border:0px;width:150px;display:block;margin:0 auto" src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
 
-Or by buying products and merchandise at [Marketplace](https://store.acelords.space).
+Or by buying products and merchandise at [Marketplace](https://store.acelords.com).
 
 This funding is used for maintaining the project and adding new features into Code Style plus other open-source repositories.
 
@@ -25,7 +25,7 @@ For Laravel versions not supporting php v7.1.3 and up, please refer to `version 
 
 ## Link
 
-[Here is the link](https://messenger.acelords.space).
+[Here is the link](https://messenger.acelords.com).
 > To get a clear picture of how it works, open two to four browsers (private/incognito mode is perfect for this case) and login with different accounts.
 
 ## Our Wishlist
@@ -43,8 +43,8 @@ Support the development via any of the links above :)
 
 
 ## Latest Demo
-We have a [New Demo Version](https://messenger-inertia.acelords.space) that features the common Laravel Jetstream + Inertia stack.
-- [Check the LIVE DEMO here](https://messenger-inertia.acelords.space)
+We have a [New Demo Version](https://messenger-inertia.acelords.com) that features the common Laravel Jetstream + Inertia stack.
+- [Check the LIVE DEMO here](https://messenger-inertia.acelords.com)
 - [Check the Source Code DEMO here](https://github.com/acelords/laravel-messenger-demo-inertia)
 
 
@@ -53,4 +53,4 @@ We have a [New Demo Version](https://messenger-inertia.acelords.space) that feat
 
 # Credits
 - [Lexx YungCarter](https://github.com/lexxyungcarter/)  - [Email](mailto:lexxyungcarter@gmail.com)
-- [ACELORDS](https://github.com/acelords/)  - [Email](mailto:info@acelords.space)
+- [ACELORDS](https://github.com/acelords/)  - [Email](mailto:info@acelords.com)
